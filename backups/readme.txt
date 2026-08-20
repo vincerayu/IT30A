@@ -7,7 +7,7 @@ C:\Dev\IT30A\backups
 5. INSERT UINTI <table_name_in_plural>
    (columns)
    VALUES(values);
- -m "laboratorty2"
+ -M "laboratorty2"
 6. ALTER TABLES srtudents ADD COLUMN student_created_at TIMESTAMP NULL DEFAULT NULL;
 7.DESCRIBE students;
 8. UPDATE students SET student_created_at = CURRENT_TIMESTAMP WHERE student_created_at IS NULL;
