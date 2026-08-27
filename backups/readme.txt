@@ -8,7 +8,7 @@ C:\Dev\IT30A\backups
    (columns)
    VALUES(values);
  -M "laboratorty2"
-6. ALTER TABLES srtudents ADD COLUMN student_created_at TIMESTAMP NULL DEFAULT NULL;
+6. ALTER TABLES students ADD COLUMN student_created_at TIMESTAMP NULL DEFAULT NULL;
 7.DESCRIBE students;
 8. UPDATE students SET student_created_at = CURRENT_TIMESTAMP WHERE student_created_at IS NULL;
 9.ALTER TABLE students MODIFY COLUMN student_created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP;
