@@ -82,29 +82,29 @@ if($section === 'students'){
                 <tr>
                     <td>
                         <?=htmlspecialchars($student['student_id'])?>
-            </td>
+                    </td>
 
                     <td>
                         <?=htmlspecialchars($student['student_first_name'])?>
-            </td>
+                    </td>
 
                     <td>
                         <?=htmlspecialchars($student['student_last_name'])?>
-            </td>
+                    </td>
 
                     <td>
                         <?=htmlspecialchars($student['student_course'])?>
-            </td>
+                    </td>
 
                     <td>
                         <?=htmlspecialchars($student['student_created_at'])?>
-            </td>
+                    </td> 
 
                     <td>
                        <a>Edit</a>
 
                         <a>Delete</a>
-            </td>
+                     </td>
             </tr>
         <?php endforeach?>
             </tbody>
