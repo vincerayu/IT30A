@@ -19,7 +19,7 @@ function navActive($section, $currentSection){
         align-items: center;
         margin-bottom: 2rem;
         flex-wrap: wrap;
-        gap: 1rem;
+        gap: 2rem;
         font-family: Roboto, system-ui,-apple-system, sans-serif;
     }
 
