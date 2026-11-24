@@ -20,10 +20,10 @@ function navActive($section, $currentSection){
         margin-bottom: 2rem;
         flex-wrap: wrap;
         gap: 1rem;
-        font-family: 'Roboto', system-ui, -apple-system, sans-serif;
+        font-family: Roboto, system-ui,-apple-system, sans-serif;
     }
 
-    .app-header h1 {
+    .app-header h1{
         font-weight: 400;
         font-size: 1.8rem;
         display: flex;
@@ -33,7 +33,7 @@ function navActive($section, $currentSection){
         margin: 0;
     }
 
-    .app-header h1 material-icon{
+    .app-header h1 material-icons{
         font-size:2.2rem;
         color: #1976d2;
     }
